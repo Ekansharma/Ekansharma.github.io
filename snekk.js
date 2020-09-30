@@ -2,10 +2,10 @@
 const cvs = document.getElementById("snake");
 const ctx = cvs.getContext("2d");
 
-// create the unit
+// create a box unit for simplification
 const box = 32;
 
-// load images
+// load all images
 
 const ground = new Image();
 ground.src = "img/ground1.png";
